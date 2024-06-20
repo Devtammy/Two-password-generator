@@ -1,0 +1,80 @@
+body {
+    margin: 10px;
+    background-color: black;
+}
+
+h1 {
+    color: #2B283A;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Open Sans', 'Verdana', sans-serif;
+}
+
+p {
+    color: #6B7280;
+    font-size: 15px;
+    margin-top: -10px;
+    
+}
+
+.container {
+    justify-content: space-around;
+    background: white;
+    max-width: 60%;
+    height: 70vh;
+    border: none;
+    border-radius: 3px;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+button {
+    background: #10B981;
+    width: 120px;
+    border: none;
+    border-radius: 6px;
+    height: 8vh;
+    font-size: 11px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    font-weight: lighter;
+}
+
+#myPwd {
+    display: flex;
+    margin: auto;    
+}
+
+h2 {
+    width: 100%;
+    max-width: auto;
+    height: 4vh;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: #2B283A;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #D5D4D8;
+    margin-right: 25px;
+}
+
+#pwdOne {
+    color: #10B981;
+    text-align: center !important;
+    font-size: 11px;
+    padding: 5px;
+}
+
+#pwdTwo {
+    color: #10B981;
+    text-align: center !important;
+    font-size: 11px;
+    padding: 5px;
+}
